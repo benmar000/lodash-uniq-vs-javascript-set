@@ -1,6 +1,6 @@
-const _ = require("lodash");
-const { createSet } = require("./src/createSet");
-const { getTimeToExecute } = require("./src/getTimeToExecute");
+import _ from "lodash-es";
+import createSet from "./src/createSet.js";
+import getTimeToExecute from "./src/getTimeToExecute.js ";
 
 const sampleSize = 100;
 

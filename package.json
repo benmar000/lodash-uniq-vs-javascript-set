@@ -1,5 +1,13 @@
 {
+  "name": "lodash-uniq-vs-javascript-set",
+  "version": "1.0.0",
+  "description": "A comparison between execution time of native JS sets and the lodash uniq function",
+  "main": "index.js",
+  "repository": "https://github.com/benmar000/lodash-uniq-vs-javascript-set.git",
+  "author": "Benjamin Martinez <ben.martinez@clincierge.com>",
+  "license": "MIT",
+  "type": "module",
   "devDependencies": {
-    "lodash": "^4.17.21"
+    "lodash-es": "^4.17.21"
   }
 }

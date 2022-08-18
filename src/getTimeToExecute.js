@@ -1,4 +1,4 @@
-module.exports.getTimeToExecute = (arr, callback) => {
+export default (arr, callback) => {
   const startTime = performance.now();
   callback(arr);
   const endTime = performance.now();

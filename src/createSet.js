@@ -1,1 +1,1 @@
-module.exports.createSet = (arr) => new Set(arr);
+export default (arr) => new Set(arr);
